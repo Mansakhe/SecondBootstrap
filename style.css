@@ -1,0 +1,48 @@
+
+
+.dve-navbar{
+    background-color: rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 1px rgba(255,255,255,0.54);
+    z-index: 99px;
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+.dve-navbar .nav-link{
+    border-bottom: 1px Solid transparent;
+    transition: padding-bottom 0.4S ease-in-out, border-color 0.3s ease;
+}
+.dve-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.banner,.form{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./asset/image/bg.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 800px;
+    
+}
+.banner .banner-desc{
+    font-size: 48;
+    font-family: cursive;
+    color: #fff;
+    
+}
+.menu{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./asset/bg8.jpg') center center fixed no-repeat;
+    background-size: cover;
+    height: 1300px;
+    background-size: cover;
+}
+.form{
+    height: 500px;
+    
+}
