@@ -1,9 +1,8 @@
 
-
 .dve-navbar{
     background-color: rgba(0,0,0,0.55);
     box-shadow: 1px 1px 1px rgba(255,255,255,0.54);
-    z-index: 99px;
+    z-index: 1000;
 }
 .btn-order{
     color: var(--bs-teal);
@@ -19,6 +18,7 @@
 .dve-navbar .nav-link{
     border-bottom: 1px Solid transparent;
     transition: padding-bottom 0.4S ease-in-out, border-color 0.3s ease;
+    z-index: 1000px;
 }
 .dve-navbar .nav-link:hover{
     padding-bottom: 20px;
@@ -34,7 +34,6 @@
     font-size: 48;
     font-family: cursive;
     color: #fff;
-    
 }
 .menu{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./asset/bg8.jpg') center center fixed no-repeat;
@@ -44,5 +43,5 @@
 }
 .form{
     height: 500px;
-    
 }
+
